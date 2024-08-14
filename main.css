@@ -1,0 +1,199 @@
+/*ESTILO 1*/
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+/* Fixar o header no topo */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    z-index: 1000;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Ajuste a margem superior da seção para garantir que não fique atrás do header */
+section {
+    margin-top: 80px; /* Ajuste conforme a altura real do seu header */
+}
+
+header,
+section h2,
+section h3,
+form button {
+    font-family: "New Amsterdam", sans-serif;;
+    font-weight: normal;
+}
+
+body,
+input,
+textarea {
+    font-family: "Anek Devanagari", sans-serif;
+}
+/*ESTILO 2*/
+header {
+    padding: 16px 0;
+    background-color: black;
+    color: #c4b407;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    color: #c4b407;
+    font-size: 18px;
+}
+
+header nav li a{
+    color: #c4b407;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #b2a839; /* Cor dourada ou a cor desejada para o hover */
+}
+
+/*ESTILO 3*/
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin:0 auto;
+}
+/*ESTILO 4*/
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* CSS para adicionar espaço entre o título e o primeiro parágrafo */
+#about h2 {
+    margin-bottom: 60px; /* Ajuste o valor conforme necessário para o espaço desejado */
+}
+
+/* CSS para definir a cor do parágrafo como preto */
+#about p {
+    color: #000000; /* Define a cor do texto como preto */
+}
+
+
+.brands-list img {
+    max-width: 100px; /* Define um tamanho máximo para as imagens */
+    height: auto; /* Mantém a proporção das imagens */
+}
+
+.brands-list {
+    display: flex; /* Usa flexbox para alinhar as imagens em linha */
+    justify-content: center; /* Centraliza as imagens horizontalmente */
+    padding: 0; /* Remove o padding padrão da lista */
+    list-style-type: none; /* Remove os marcadores padrão da lista */
+    margin: 60px 0 0; /* Adiciona um espaço acima da lista para separá-la do texto */
+}
+
+.brands-list li {
+    display: inline;
+    margin-right: 8px;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+section {
+    color: #c4b407;
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+.store-front {
+    margin-right: 32px;
+    border-radius: 10px;
+}
+
+.social-links img {
+    height: 24px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+#contact .container {
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+section h3 {
+    margin-bottom: 16px;
+}
+
+form button {
+    background-color: black;
+    color: #c4b407;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #303239;
+}
+
+input:focus, textarea:focus {
+    outline-color: #c4b407;
+}
+
+footer {
+    background-color: black;
+    color: #c4b407;
+    padding: 16px 0;
+    text-align: center;
+}
+
+/* CSS para definir a cor preta do texto */
+#contact p {
+    color: #000000; /* Define a cor do texto como preto */
+}
+
+
+
+
+
